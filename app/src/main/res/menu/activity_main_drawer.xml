@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/restaurant"
+            android:icon="@mipmap/numorder"
+            android:title="المطاعم" />
+        <item
+            android:id="@+id/account"
+            android:icon="@mipmap/emailicon"
+            android:title="حسابك" />
+
+        <item
+            android:id="@+id/info"
+            android:icon="@mipmap/info"
+            android:title="فريق أكلني" />
+    </group>
+
+    <item android:title="الاتصال بنا">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/phonenum"
+                android:title="شكاوي واقتراحات" />
+            <item
+                android:id="@+id/chat"
+                android:icon="@mipmap/ratemenu"
+                android:title=" تقييم" />
+
+        </menu>
+    </item>
+
+</menu>
